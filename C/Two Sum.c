@@ -6,6 +6,7 @@ void twoSum(unsigned count, const int numbers[count], int target,
       if(numbers[i] + numbers[j] == target) {
         *index1 = i;
         *index2 = j;
+	retrun;
       }
     }
   }
